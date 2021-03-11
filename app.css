@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(rgba(47, 150, 163, 0.849), rgb(48, 63, 209));
+  font-size: 20px;
+  justify-content: space-around;
+  margin: 20%;
+  text-align: center;
+  height: 80vh;
+  font-family: sans-serif;
+}
+.time {
+  padding-bottom: 20px;
+  font-size: 3.5em;
+  color: beige;
+}
+.location {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.request-location {
+  height: 40px;
+  width: 40%;
+  text-align: center;
+  font-size: 1.5em;
+}
+button {
+  font-size: 1.5em;
+  border-radius: 20%;
+  padding: 20px;
+  background-color: darkblue;
+  color: beige;
+}
+.location-timezone {
+  color: azure;
+}
+.temperature-summary {
+  font-size: 2.5em;
+  text-transform: capitalize;
+  color: azure;
+}
+.temperature-degree {
+  color: cornsilk;
+  display: inline;
+  margin-right: 10px;
+  cursor: pointer;
+}
+#degree-unit {
+  color: cornsilk;
+  cursor: pointer;
+}
+@media screen and (max-width: 380px) {
+  .time {
+    padding-bottom: 20px;
+    font-size: 1.5em;
+    color: beige;
+    text-align: center;
+  }
+  .request-location {
+    height: 40px;
+    width: 100%;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 1.2em;
+  }
+  button {
+    font-size: 1.2em;
+    border-radius: 20%;
+    padding: 10px;
+    background-color: darkblue;
+    color: beige;
+    margin-bottom: 40px;
+  }
+  .location-timezone {
+    color: azure;
+    font-size: 1.5em;
+  }
+  .temperature-summary {
+    font-size: 1.2em;
+    text-transform: capitalize;
+    color: azure;
+  }
+  .temperature-degree {
+    color: cornsilk;
+    display: inline;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  #degree-unit {
+    color: cornsilk;
+    cursor: pointer;
+  }
+}
+@media screen and (max-width: 480px) {
+  .time {
+    padding-bottom: 20px;
+    font-size: 1.5em;
+    color: beige;
+    text-align: center;
+  }
+  .request-location {
+    height: 40px;
+    width: 100%;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 1.2em;
+  }
+  button {
+    font-size: 1.2em;
+    border-radius: 20%;
+    padding: 10px;
+    background-color: darkblue;
+    color: beige;
+    margin-bottom: 40px;
+  }
+  .location-timezone {
+    color: azure;
+    font-size: 1.5em;
+  }
+  .temperature-summary {
+    font-size: 1.2em;
+    text-transform: capitalize;
+    color: azure;
+  }
+  .temperature-degree {
+    color: cornsilk;
+    display: inline;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  #degree-unit {
+    color: cornsilk;
+    cursor: pointer;
+  }
+}
+@media screen and (max-width: 640px) {
+  .time {
+    padding-bottom: 20px;
+    font-size: 1.5em;
+    color: beige;
+    text-align: center;
+  }
+  .request-location {
+    height: 40px;
+    width: 100%;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 1.2em;
+  }
+  button {
+    font-size: 1.2em;
+    border-radius: 20%;
+    padding: 10px;
+    background-color: darkblue;
+    color: beige;
+    margin-bottom: 40px;
+  }
+  .location-timezone {
+    color: azure;
+    font-size: 1.5em;
+  }
+  .temperature-summary {
+    font-size: 1.2em;
+    text-transform: capitalize;
+    color: azure;
+  }
+  .temperature-degree {
+    color: cornsilk;
+    display: inline;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  #degree-unit {
+    color: cornsilk;
+    cursor: pointer;
+  }
+}
